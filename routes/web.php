@@ -35,3 +35,5 @@ $router->post('/saludo',function(){
     return 'Hola estoy creando un saludo';
 });
 
+
+$router->get('/calcular/{edad}', 'calcularEdadcontroller@calcularEdad');
